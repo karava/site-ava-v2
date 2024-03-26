@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVA</title>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="prefetch" href="assets/img/enter-pressed.png" />
+    <link rel="prefetch" href="assets/img/button-background-pressed.svg" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="flex-row first-banner">
+        <div class="flex-7">
+            <img src="assets/img/ava.svg"/>
+            <div class="imagination-title">
+                <span>Where imagination</span><span>meets the</span> <img src="assets/img/enter.png" id="enterImage"/> <span>key.</span>
+            </div>
+            <p class="type-ahead">
+                <span class="pointer">➥</span><span class="typing"></span><span class="original">At AVA Consult, we stir together creativity, a dash of digital wizardry, and a generous helping of curiosity to whip up digital concoctions that might just tickle your fancy or solve that thing you didn’t know needed solving.</span>
+            </p>
+        </div>
+        <div class="flex-5">
+            <div class="terminal">
+                <div class="upper">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="prompt">
+                    <div>Local Time: <br/> <span id="timerCounter"></span> - <span id="timeZone"></span></div>
+                    <div>Window Size: <br/> <span id="pageWidth"></span> x <span id="pageHeight"></span> pixels</div>
+                    Page Load Time: <span id="loadTime"></span> seconds
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="info-section">
+        <div class="flex-row">
+            <div class="title flex-5 type-ahead">
+                <span class="typing"></span>
+                <span class="original">.about_us</span>
+            </div>
+            <div class="flex-7">
+                <h3 class="type-ahead">
+                    <span class="typing"></span>
+                    <span class="original">A Quirky Collective of Digital Alchemists</span>
+                </h3>
+                <p class="type-ahead">
+                    <span class="typing"></span>
+                    <span class="original">We're the folks at AVA Consult: part magicians , part mechanics , with an unshakable affection for all things digital (and an impressive collection of coffee mugs ).</span>
+                </p>
+                <p class="type-ahead">
+                    <span class="typing"></span>
+                    <span class="original">We thrive on transforming whimsical what-ifs into why-nots that work, creating digital delights that are as fun  as they are functional.</span>
+                </p>
+            </div>
+        </div>
+        <div class="flex-row">
+            <div class="title flex-5 type-ahead">
+                <span class="typing"></span>
+                <span class="original">.our_approach</span>
+            </div>
+            <div class="flex-7">
+                <h3 class="type-ahead">
+                    <span class="typing"></span>
+                    <span class="original">Crafting Digital Joyrides</span>
+                </h3>
+                <p class="type-ahead">
+                    <span class="typing"></span>
+                    <span class="original">Imagine if your favorite hobby and the internet had a baby. That’s kind of what we do here. Our projects start with a spark of joy and end with something splendidly digital.</span>
+                </p>
+                <p class="type-ahead">
+                    <span class="typing"></span>
+                    <span class="original">We specialize in internal tools that surprise, engage, and, occasionally, make you go, “Huh, neat!”</span>
+                </p>
+            </div>
+        </div>
+        <div class="flex-row">
+            <div class="title flex-5 type-ahead">
+                <span class="typing"></span>
+                <span class="original">.our_work</span>
+            </div>
+            <div class="flex-7">
+                <h3><span class="typing"></span>
+                    <span class="original">A Smorgasbord of Digital Delights</span></h3>
+                <p class="type-ahead">
+                    <span class="typing"></span>
+                    <span class="original">While we prefer to let our creations do the talking (they’re much more eloquent), our portfolio is a kaleidoscope of digital adventures.</span>
+                </p>
+                <p class="type-ahead">
+                    <span class="typing"></span>
+                    <span class="original">From apps that spark joy to platforms that ponder the meaning of the digital age, every project is an invitation to explore and enjoy.</span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+</div>
+<div  class="form-container">
+    <div class="container">
+        <section class="form-section">
+            <h4 class="red type-ahead">
+                <span class="typing"></span>
+                <span class="original">/*In case you need us, we’re not hard to find. Got something on your mind or need to loop us in?*/</span>
+            </h4>
+            <h4>
+                <div>Just hit us up below.</div>
+                We're here,doing our thing.
+            </h4>
+            <form id="message-form">
+                <div class="terminal">
+                    <div class="upper">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="prompt">
+                        <div class="form-field">Email: <input name="email" type="email" placeholder="Enter your email..."/></div>
+                        <div class="form-field">Message: <textarea name="message" placeholder="Enter your messages here..."></textarea></div>
+                    </div>
+                </div>
+                <button type="submit" class="form-button"><span>Submit</span></button>
+            </form>
+
+
+        </section>
+
+    </div>
+
+    <img class="footer-background" src="assets/img/footer-shadow.svg"/>
+</div>
+<div id="revealBackground"></div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="assets/js/main.js"></script>
+</html>
